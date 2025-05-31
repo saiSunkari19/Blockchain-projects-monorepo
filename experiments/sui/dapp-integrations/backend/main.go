@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/joho/godotenv"
-	et "github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/personal-signature-demo/backend/events-token-transfer"
+	mv "github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/dapp-integrations/backend/move-interactions"
 )
 
 func main() {
@@ -19,6 +19,8 @@ func main() {
 
 	// Enable to Run Subscribe Events
 
-	et.HandleSUISubscribeEvents()
+	// et.HandleSUISubscribeEvents()
+
+	mv.HandleMoveCall()
 
 }

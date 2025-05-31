@@ -1,4 +1,4 @@
-module github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/personal-signature-demo/backend
+module github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/dapp-integrations/backend
 
 go 1.23.4
 
