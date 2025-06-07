@@ -27,7 +27,8 @@ const balance = (balance: CoinBalance) =>{
 // })
 
 const suiAfter = await suiClient.getBalance({
-    owner: MY_ADDRESS
+    owner: MY_ADDRESS,
+    coinType: "0x02::sui::SUI"
 })
 
 console.log(
