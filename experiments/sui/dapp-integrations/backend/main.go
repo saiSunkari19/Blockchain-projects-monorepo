@@ -4,7 +4,8 @@ import (
 	"log"
 
 	"github.com/joho/godotenv"
-	mv "github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/dapp-integrations/backend/move-interactions"
+	mv "github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/dapp-integrations/backend/twitter-apis"
+	// mv "github.com/saiSunkari19/blockchain-projects-monorepo/experiments/sui/dapp-integrations/backend/move-interactions"
 )
 
 func main() {
@@ -21,6 +22,14 @@ func main() {
 
 	// et.HandleSUISubscribeEvents()
 
-	mv.HandleMoveCall()
+	// mv.UpdateAccessList()
+	mv.RunTwitterAPI()
+
+	// mv.HandleMoveCall()
+	// mv.EnableMintFee()
+	// mv.HandleMoveMintNFT()
+	// mv.HandleAirdrop()
+	// mv.HandleMergeCoins()
+	// mv.QueryObject()
 
 }
